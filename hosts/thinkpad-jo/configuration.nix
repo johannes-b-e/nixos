@@ -33,6 +33,7 @@
     #system:
       ./modules/johannes.nix  # user-specific-configuration
       ./modules/power.nix
+      ./modules/system/backrest.nix
 
       ../../modules/system/audio.nix
       ../../modules/system/networking

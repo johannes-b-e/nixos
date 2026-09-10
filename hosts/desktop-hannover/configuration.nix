@@ -27,6 +27,7 @@
       ../../modules/system/bluetooth.nix
       ../../modules/system/virtualisation.nix
       ../../modules/system/displayManager.nix
+      ./modules/system/backrest.nix
 
     #services:
       #../../modules/services/spicetify.nix  #spicetify spotify-client
