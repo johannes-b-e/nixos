@@ -7,4 +7,5 @@ in
   "smb_server_pw.age".publicKeys = [ desktop-jo desktop-hannover ];
   "airvpn-key.age".publicKeys = [ desktop-jo desktop-hannover thinkpad-jo];
   "airvpn-psk.age".publicKeys = [ desktop-jo desktop-hannover thinkpad-jo];
+  "rclone.conf.age".publicKeys = [ desktop-jo desktop-hannover thinkpad-jo];
 }

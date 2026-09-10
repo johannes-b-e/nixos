@@ -23,6 +23,7 @@
       ./modules/nvidia.nix # gpu-driver config (nvidia)
       ./modules/johannes.nix  # user-specific-configuration
       ./modules/system/filesystems.nix # network filesystems from the server
+      ./modules/system/backrest.nix
 
       ../../modules/system/audio.nix
       ../../modules/system/networking 
@@ -106,6 +107,8 @@
     gnirehtet
 
     playerctl #needed for deej-mediacontrols
+
+    (bottles.override { removeWarningPopup = true; })
 
     #prismlauncher-cracked
   ];
